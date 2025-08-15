@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#e2e8f0"/><stop offset="1" stop-color="#f8fafc"/></linearGradient></defs>
+  <rect width="800" height="560" fill="url(#g)"/>
+  <g fill="none" stroke="#94a3b8">
+    <rect x="60" y="60" width="680" height="440" rx="20" stroke-width="3"/>
+    <path d="M120 420L250 290l80 80 180-180 170 180" stroke-width="3"/>
+  </g>
+  <text x="50%" y="50%" text-anchor="middle" fill="#334155" font-size="28" font-family="Arial">Project / Illustration Placeholder</text>
+</svg>
