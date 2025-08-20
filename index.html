@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Personal portfolio of YOUR NAME — Data Analyst / Data Scientist." />
@@ -34,12 +35,14 @@
         <p class="summary">
           I turn raw data into clear insights and decision-ready dashboards. I work with SQL, Python, Power BI/Tableau, and modern data stacks (ETL, AWS, Snowflake).
         </p>
+        <!--
         <div class="cta-row">
           <a href="#projects" class="btn btn-primary">See Projects</a>
-          <!--
+          
           <a href="assets/YourName_CV.pdf" class="btn" download>Download CV</a>
-          -->
+          
         </div>
+        -->
         <div class="socials">
           <a class="icon-btn" href="mailto:djsalvi1424@gmail.com" aria-label="Email">
             <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v.4L12 13 2 6.4V6Zm0 2.7V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8.7l-9.4 6.3a2 2 0 0 1-2.2 0L2 8.7Z"/></svg>
@@ -75,86 +78,95 @@
     </section>
 
     <section id="skills" class="section container">
-      <h2>Skills</h2>
-      <div class="chips">
-        <span class="chip">SQL</span><span class="chip">Python</span><span class="chip">Pandas</span>
-        <span class="chip">Power BI</span><span class="chip">Tableau</span><span class="chip">Excel</span>
-        <span class="chip">ETL</span><span class="chip">AWS</span><span class="chip">Snowflake</span>
-        <span class="chip">Spark</span><span class="chip">Git</span><span class="chip">Docker</span>
-        <span class="chip">R</span>
+      <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+    
+      <div class="grid grid-cols-1 md:grid-cols-2 divide-x divide-y divide-gray-300 bg-white rounded-2xl shadow-lg overflow-hidden">
+        <!-- Programming -->
+        <div class="p-8">
+          <h3 class="font-semibold text-xl mb-4"><span class="chip">Programming</span></h3>
+          <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Python</li>
+            <li>R</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+    
+        <!-- Data Visualization -->
+        <div class="p-8">
+          <h3 class="font-semibold text-xl mb-4"><span class="chip">Data Visualization</span></h3>
+          <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Power BI</li>
+            <li>Excel</li>
+            <li>Looker Studio</li>
+          </ul>
+        </div>
+    
+        <!-- Advanced Skills -->
+        <div class="p-8">
+          <h3 class="font-semibold text-xl mb-4"><span class="chip">Advanced Skills</span></h3>
+          <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>ETL / ELT</li>
+            <li>AWS SageMaker</li>
+          </ul>
+        </div>
+    
+        <!-- Database Management -->
+        <div class="p-8">
+          <h3 class="font-semibold text-xl mb-4"><span class="chip">Database Management</span></h3>
+          <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Hadoop</li>
+            <li>Spark</li>
+            <li>Snowflake</li>
+          </ul>
+        </div>
       </div>
     </section>
-
-    <section id="skills" class="section container">
-      <h2>Skills</h2>
-      <table class="skills-table">
-        <thead>
-          <tr>
-            <th>Category</th>
-            <th>Technologies</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Programming Languages</td>
-            <td>Python, R, SQL</td>
-          </tr>
-          <tr>
-            <td>Data Visualization</td>
-            <td>Power BI, Excel, Looker Studio</td>
-          </tr>
-          <tr>
-            <td>Database Management</td>
-            <td>MySQL, MongoDB, Hadoop, Spark, Snowflake</td>
-          </tr>
-          <tr>
-            <td>Advanced Skills</td>
-            <td>AWS SageMaker, Machine Learning (ML), Deep Learning (DL), ETL/ELT</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
     
-    
+        
 
     <section id="projects" class="section container">
       <h2>Projects</h2>
       <div class="grid">
         <article class="card">
-          <img src="assets/img/project-1.svg" alt="Project 1 preview" class="card-img">
+          <img src="assets/img/Machine_Learning.jpeg" alt="Project 1 preview" class="card-img">
           <div class="card-body">
-            <h3>Customer Churn Dashboard</h3>
-            <p>Built an interactive BI dashboard to monitor churn risk and retention cohorts.</p>
-            <div class="tags"><span>Power BI</span><span>SQL</span></div>
+            <h3>Machine Learning</h3>
+            <p>Built an interactive different machine learning models. Took participated into kaggle competition in machine learning.</p>
+            <div class="tags"><span>Supervised Learning</span><span>Unsupervised Learning</span></div>
             <div class="card-actions">
-              <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Live Demo</a>
-              <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Code</a>
+              <a class="btn btn-ghost" href="https://github.com/DhruvSalvi/Machine-Learning" target="_blank" rel="noopener">Code</a>
             </div>
           </div>
         </article>
 
         <article class="card">
-          <img src="assets/img/project-2.svg" alt="Project 2 preview" class="card-img">
+          <img src="assets/img/power_bi.jpeg" alt="Project 2 preview" class="card-img">
           <div class="card-body">
-            <h3>ETL Pipeline on AWS</h3>
-            <p>Designed an end-to-end ETL for sales data with automated quality checks.</p>
-            <div class="tags"><span>AWS</span><span>Python</span></div>
+            <h3>Power BI</h3>
+            <p>Built an interactive BI Visualization dashboards during my acedamy projects as well as in Unifield-internship also.</p>
+            <div class="tags"><span>DAX</span><span>Data warehouse</span>
+              <span>Schema</span></div>
             <div class="card-actions">
-              <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Blog</a>
-              <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Code</a>
+              <!--
+              <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Data Visualization</a>
+              -->
+              <a class="btn btn-ghost" href="https://github.com/DhruvSalvi/Unified_Internship_2025/tree/main/Unifield-internship/Project" target="_blank" rel="noopener">Code</a>
             </div>
           </div>
         </article>
 
         <article class="card">
-          <img src="assets/img/project-3.svg" alt="Project 3 preview" class="card-img">
+          <img src="assets/img/maleria_call.jpeg" alt="Project 3 preview" class="card-img">
           <div class="card-body">
-            <h3>AB Testing Toolkit</h3>
-            <p>Reusable Python notebook/templates to run and visualize A/B tests.</p>
-            <div class="tags"><span>Python</span><span>Statistics</span></div>
+            <h3>Maleria Cell Detection</h3>
+            <p>Built a CNN model to detect maleria cells.</p>
+            <div class="tags"><span>Python</span><span>CNN</span></div>
             <div class="card-actions">
-              <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Docs</a>
-              <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Code</a>
+              <a class="btn btn-ghost" href="https://github.com/DhruvSalvi/Deep-Learning" target="_blank" rel="noopener">Code</a>
             </div>
           </div>
         </article>
